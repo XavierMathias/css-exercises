@@ -24,17 +24,22 @@ p {
 }
 
 
-nav{
+.nav-container{
     border: 2px solid blue;
-    display: flex;
+    display: flex;.
 }
+
 
 div {
     border: 2px solid green;
     text-align: center;
 }  
-
+/*
 
 .nav-container > div{
     flex: 1;
   }
+*/
+.nav-container > .search {
+    flex: 2;
+}
