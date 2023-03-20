@@ -22,3 +22,19 @@ h2{
 p {
     margin: 10px 0 0 0;
 }
+
+
+nav{
+    border: 2px solid blue;
+    display: flex;
+}
+
+div {
+    border: 2px solid green;
+    text-align: center;
+}  
+
+
+.nav-container > div{
+    flex: 1;
+  }
