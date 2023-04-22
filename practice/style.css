@@ -40,6 +40,6 @@ div {
     flex: 1;
   }
 */
-.search {
-    flex: 2;
+.home, .store {
+    flex: 1;
 }

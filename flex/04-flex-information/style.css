@@ -1,11 +1,25 @@
 body {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+}
+
+.item-container{
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 52px;
+}
+
+.item1, .item2, .item3, .item4 {
+  width: 200px;
 }
 
 img {
   width: 100px;
   height: 100px;
 }
+
+
 
 .title {
   font-size: 36px;
